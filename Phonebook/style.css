@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(230, 230, 230);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.start{
+    margin-left: 250px;
+    
+}
+.start h1{
+    text-align: center;
+    color:brown;
+}
+.menu button{
+    margin-left: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(185, 185, 185);
+}
+.start button a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color:brown;
+}
+
+.conteiner{
+    border: 2px double rgb(126, 0, 0); /* Параметры границы */
+    padding: 10px; /* Поля вокруг текста */
+    
+    width: 1000px;
+    min-height: 800px;
+    margin: 20px auto; 
+    }
+form{
+    padding: 10px; /* Поля вокруг текста */
+    display: block;
+    width: 380px;
+    margin: 0 auto; 
+}
+
+form input{
+    padding:10px;
+    margin: 10px auto;
+    outline: none;
+    margin-left: 25px;
+    width: 190px; 
+}
+form label{
+    font-size: 18px;
+}
+form button{
+    padding:10px;
+    width: 100px;
+    margin: 10px auto;
+    margin-left:220px;
+}
+.but{
+    margin-block: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    background:#02759b;
+    border-radius: 3px;
+    color:rgb(19, 19, 19);
+  }
+  #column-1 {
+    width: 33%;
+    float: left;
+    min-height: 200px;
+    max-height: 600px;
+  }
+  
+  #column-2 {
+    width: 33%;
+    min-height: 200px;
+    float: left;
+    max-height: 600px;
+  }
+  
+  #column-3 {
+    width: 33%;
+    min-height: 200px;
+    float: left;
+    max-height: 800px;
+  }
+.conteiner1 h3{
+        text-align: center;
+        text-decoration: underline;
+        color:rgb(129, 0, 0);
+  }
+  .conteiner2 h3{
+    text-align: center;
+    text-decoration: underline;
+    color:rgb(129, 0, 0);
+}
+.conteiner3 h3{
+    text-align: center;
+    text-decoration: underline;
+    color:rgb(129, 0, 0);
+}
+
+.conteiner1 h4{
+    text-align: center;
+    font-weight: 300px;
+    color:rgb(80, 80, 80);
+}
+.conteiner2 h4{
+    text-align: center;
+    font-weight: 300px;
+    color:rgb(80, 80, 80);
+}
+.conteiner3 h4{
+    text-align: center;
+    font-weight: 300px;
+    color:rgb(80, 80, 80);
+}
+.conteiner1{
+    display: none;
+}   
+.conteiner2{
+    display: none;
+}
+.conteiner3{
+    display: none;
+}
+.fm h3{
+    display: inline;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2b2b2b;    
+}
+.fm button{
+    display: inline;
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    outline: none;
+    background-color: rgb(247, 254, 255);
+}
+.fm{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.forma h3{
+    text-decoration: underline;
+    color:rgb(82, 82, 82);
+    font-size: 25px;
+}
+
+.forma h4{
+    color:rgb(27, 27, 27);
+    
+}
+.block h4{
+    display:inline-block;
+}
+.block input{
+    display: table-cell; 
+    vertical-align: middle;
+}
+.forma input{
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+.forma{
+    text-align: center;
+}
+.forma button{
+    display: block;
+    margin: auto 200px;
+    background:  none;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    color: rgb(0, 89, 255);
+    
+}
+.save button{
+    background-color: rgb(131, 131, 131);
+   margin-top: 50px;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 8px;
+    width: 100px;
+    border: 1px solid #02759b;
+}
+.b2 input{
+    display: inline;
+    width:180px;
+}
+#special{
+    width: 20px;
+}
+.new_form{
+    width: 1000px;
+    min-height: 800px;
+    margin: 20px auto; 
+ 
+    padding: 10px; /* Поля вокруг текста */
+    display: block;
+    margin: 0 auto; 
+}
+.forma select{
+    padding: 6px;
+    outline: none;
+}
