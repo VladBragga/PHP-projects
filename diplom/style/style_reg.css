@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(back.jpg);
+    background-size: 100%;
+  }
+  
+  .user{
+    width: 100px;
+    height: 100px;
+    border-radius: 24px;
+  }
+  .forgot__link{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #f300f3;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .2s;
+  }
+  .forgot__link:hover{
+    color: #ffffff;
+  }
+  .form-box{
+    width: 340px;
+    height: 850px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    box-shadow: -15px 10px 25px -10px rgba(170, 70, 4, 0.75);
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background:  linear-gradient(45deg, #ffffff, #7c7c7c );
+    text-align: center;
+  }
+select{
+  padding: 9px;
+  width: 280px;
+  outline: none;
+  border-radius: 5px;
+  background-color: #c9c9c9ce;
+}
+
+p{
+  color: rgb(99, 99, 99);
+  text-align: left;
+  margin-left: 26px;
+}
+  .form-box h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+  }
+  .form-box a{
+    display: block;
+    font-size: 14px;
+    margin: 10px auto;
+    text-align: center;
+    border: #b44bd3;
+    color: #cc5200;
+    width: 100px;
+    border-radius: 24px;
+    height: 22px;
+    padding-top: 5px;
+  }
+  .form-box a:hover{
+    background:  linear-gradient(45deg, #ff9900, #e00505);
+    color: #ffffff;
+    border: #ff7011;
+  }
+  .form-box h3{
+    display: block;
+    font-size: 14px;
+    margin: 10px auto;
+    text-align: center;
+    color: #000000;
+  }
+  .form-box input[type = "text"], .form-box input[type = "password"], .form-box input[type = "email"]
+  {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ff5708;
+    padding: 14px 15px;
+    width: 280px;
+    outline: none;
+    color: #000000;
+    transition: 0.25s;
+  }
+ 
+  .form-box input[type="text"]:focus, .form-box input[type = "password"]:focus, .form-box input[type = "email"]:focus
+  {
+    width: 320px;
+    border-color: #b40be7;
+  }
+  .form-box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ee6104;
+    width: 230px;
+    height: 40px;
+    color: #000000;
+  
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .form-box input[type = "submit"]:hover{
+    background:  linear-gradient(45deg, #ff9900, #e00505);
+     color: #FFFF;   
+  }
+  .form-box input[type = "file"]{
+    color: #2c2c2c;
+    background-color: #ee6104;
+    border-radius: 5px;
+    width: 280px;
+    padding: 10px;
+  }
+
+  .check_log{
+    color: rgb(170, 0, 0);
+    padding: 8px;
+    background-color: rgb(255, 187, 0);
+    width: 250px;
+    border-radius: 5px;
+    margin: 0px auto;
+  }
+  .success_reg{
+    color: rgb(0, 66, 29);
+    width: 200px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgba(19, 235, 19, 0.788);
+  }
+  .popup-bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+  }
+  .popup_not_login{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    width: 300px;
+    background-color: rgba(255, 17, 0, 0.692);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .popup{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    width: 300px;
+    background-color: rgba(0, 185, 15, 0.753);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .popup p,
+  .popup_not_login p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .close-popup,
+  .close-popup-log{
+    position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+  }
+  .popup img,
+  .popup_not_login img{
+    width: 12px;
+  }
+  
+  @media only screen and  (max-width: 1350px){
+    .bg_img{
+      margin-left: 50px;
+      margin-top: 80px;
+      width: 550px;
+    }
+  }
+  @media only screen and  (max-width: 1025px){
+  .bg_img{
+    display:none;
+    }
+  body {
+    background: #3b3b3b;
+  }
+  .form-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+  }
+  .form-container{
+    margin: 0%;
+  }
